@@ -1,0 +1,425 @@
+{
+    "458.l.56606.t.1": {
+        "team_key": "458.l.56606.t.1",
+        "team_id": "1",
+        "name": "Get in my Elly",
+        "url": "https://baseball.fantasysports.yahoo.com/b1/56606/1",
+        "team_logos": [
+            {
+                "team_logo": {
+                    "size": "large",
+                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/d5e0166e5734314c4a88ef4fd688ff0de51609579c1205421ea24e560b65ebd9.jpg"
+                }
+            }
+        ],
+        "number_of_moves": 2,
+        "number_of_trades": 0,
+        "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 1,
+            "value": "0"
+        },
+        "league_scoring_type": "head",
+        "has_draft_grade": 0,
+        "managers": [
+            {
+                "manager": {
+                    "manager_id": "1",
+                    "nickname": "JB",
+                    "guid": "27YZJZE4VW6POH4Z5TCVAGR4SU",
+                    "is_commissioner": "1",
+                    "image_url": "https://s.yimg.com/ag/images/4683/38201134020_73bf34_64sq.jpg",
+                    "felo_score": "620",
+                    "felo_tier": "silver"
+                }
+            }
+        ]
+    },
+    "458.l.56606.t.2": {
+        "team_key": "458.l.56606.t.2",
+        "team_id": "2",
+        "name": "Snell Ya Later!",
+        "url": "https://baseball.fantasysports.yahoo.com/b1/56606/2",
+        "team_logos": [
+            {
+                "team_logo": {
+                    "size": "large",
+                    "url": "https://s.yimg.com/cv/apiv2/default/mlb/mlb_4_n.png"
+                }
+            }
+        ],
+        "number_of_moves": 0,
+        "number_of_trades": 0,
+        "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 1,
+            "value": "0"
+        },
+        "league_scoring_type": "head",
+        "has_draft_grade": 0,
+        "managers": [
+            {
+                "manager": {
+                    "manager_id": "2",
+                    "nickname": "Neal",
+                    "guid": "QIN4WXVP3I35B2C53YIX4KOAX4",
+                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                    "felo_score": "604",
+                    "felo_tier": "silver"
+                }
+            }
+        ]
+    },
+    "458.l.56606.t.3": {
+        "team_key": "458.l.56606.t.3",
+        "team_id": "3",
+        "name": "Hiking in Merrills",
+        "url": "https://baseball.fantasysports.yahoo.com/b1/56606/3",
+        "team_logos": [
+            {
+                "team_logo": {
+                    "size": "large",
+                    "url": "https://s.yimg.com/cv/apiv2/default/mlb/mlb_1.png"
+                }
+            }
+        ],
+        "number_of_moves": 2,
+        "number_of_trades": 0,
+        "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 1,
+            "value": "1"
+        },
+        "league_scoring_type": "head",
+        "has_draft_grade": 0,
+        "managers": [
+            {
+                "manager": {
+                    "manager_id": "3",
+                    "nickname": "Watts",
+                    "guid": "YNHOFYTQ5OCJ4ZRY4EBW77JDNA",
+                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                    "felo_score": "596",
+                    "felo_tier": "bronze"
+                }
+            }
+        ]
+    },
+    "458.l.56606.t.4": {
+        "team_key": "458.l.56606.t.4",
+        "team_id": "4",
+        "name": "ABRAMS\u2019 N\u2019DEVERS",
+        "url": "https://baseball.fantasysports.yahoo.com/b1/56606/4",
+        "team_logos": [
+            {
+                "team_logo": {
+                    "size": "large",
+                    "url": "https://s.yimg.com/cv/apiv2/default/mlb/mlb_4.png"
+                }
+            }
+        ],
+        "number_of_moves": 0,
+        "number_of_trades": 0,
+        "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 1,
+            "value": "0"
+        },
+        "league_scoring_type": "head",
+        "has_draft_grade": 0,
+        "managers": [
+            {
+                "manager": {
+                    "manager_id": "4",
+                    "nickname": "Nate",
+                    "guid": "KYQDDFXJWPFLQFYVCVJ4AIOXOU",
+                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                    "felo_score": "626",
+                    "felo_tier": "silver"
+                }
+            }
+        ]
+    },
+    "458.l.56606.t.5": {
+        "team_key": "458.l.56606.t.5",
+        "team_id": "5",
+        "name": "I Like Baseball \u26be",
+        "is_owned_by_current_login": 1,
+        "url": "https://baseball.fantasysports.yahoo.com/b1/56606/5",
+        "team_logos": [
+            {
+                "team_logo": {
+                    "size": "large",
+                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/831bd9a5cdb16fafda191349cbbba0043ba41c5354e1ff985c77012eb391038f.png"
+                }
+            }
+        ],
+        "number_of_moves": 1,
+        "number_of_trades": 0,
+        "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 1,
+            "value": "1"
+        },
+        "league_scoring_type": "head",
+        "has_draft_grade": 0,
+        "managers": [
+            {
+                "manager": {
+                    "manager_id": "5",
+                    "nickname": "Jimmy",
+                    "guid": "RKNF6PALNEPWK4HWTWJ2WIT6T4",
+                    "is_current_login": "1",
+                    "image_url": "https://s.yimg.com/ag/images/7c25df0c-2950-4702-aeee-c3a49a8041ef_64sq.jpg",
+                    "felo_score": "707",
+                    "felo_tier": "gold"
+                }
+            }
+        ]
+    },
+    "458.l.56606.t.6": {
+        "team_key": "458.l.56606.t.6",
+        "team_id": "6",
+        "name": "Cellar Dweller's Redemption",
+        "url": "https://baseball.fantasysports.yahoo.com/b1/56606/6",
+        "team_logos": [
+            {
+                "team_logo": {
+                    "size": "large",
+                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/33239255874_a3edd2db2f.jpg"
+                }
+            }
+        ],
+        "number_of_moves": 0,
+        "number_of_trades": 0,
+        "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 1,
+            "value": "0"
+        },
+        "league_scoring_type": "head",
+        "has_draft_grade": 0,
+        "managers": [
+            {
+                "manager": {
+                    "manager_id": "6",
+                    "nickname": "hank",
+                    "guid": "TRLFDNQMLUNEAN24GNVIWJNQHA",
+                    "image_url": "https://s.yimg.com/ag/images/4682/39126446711_7356d2_64sq.jpg",
+                    "felo_score": "489",
+                    "felo_tier": "bronze"
+                }
+            }
+        ]
+    },
+    "458.l.56606.t.7": {
+        "team_key": "458.l.56606.t.7",
+        "team_id": "7",
+        "name": "Keme's Kekambas",
+        "url": "https://baseball.fantasysports.yahoo.com/b1/56606/7",
+        "team_logos": [
+            {
+                "team_logo": {
+                    "size": "large",
+                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/40879835022_72e4c0.jpg"
+                }
+            }
+        ],
+        "number_of_moves": 0,
+        "number_of_trades": 0,
+        "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 1,
+            "value": "0"
+        },
+        "league_scoring_type": "head",
+        "has_draft_grade": 0,
+        "managers": [
+            {
+                "manager": {
+                    "manager_id": "7",
+                    "nickname": "Max Kemether",
+                    "guid": "7WFHSXRPT5FIWNGCOKRCOI7KSM",
+                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                    "felo_score": "767",
+                    "felo_tier": "gold"
+                }
+            }
+        ]
+    },
+    "458.l.56606.t.8": {
+        "team_key": "458.l.56606.t.8",
+        "team_id": "8",
+        "name": "Hunter Browntown",
+        "url": "https://baseball.fantasysports.yahoo.com/b1/56606/8",
+        "team_logos": [
+            {
+                "team_logo": {
+                    "size": "large",
+                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/74702796070d392270481e9e34f6503fea16a5d4b2a15e16b212b53b2cc94858.jpg"
+                }
+            }
+        ],
+        "number_of_moves": 0,
+        "number_of_trades": 0,
+        "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 1,
+            "value": "0"
+        },
+        "league_scoring_type": "head",
+        "has_draft_grade": 0,
+        "managers": [
+            {
+                "manager": {
+                    "manager_id": "8",
+                    "nickname": "Blake",
+                    "guid": "67AUQTXCMSZXIOF6UN5NF3YC6Y",
+                    "image_url": "https://s.yimg.com/ag/images/99c1da7e-49a2-4e64-a46d-5838eb8509d2_64sq.jpg",
+                    "felo_score": "711",
+                    "felo_tier": "gold"
+                }
+            }
+        ]
+    },
+    "458.l.56606.t.9": {
+        "team_key": "458.l.56606.t.9",
+        "team_id": "9",
+        "name": "DURAN DURAN",
+        "url": "https://baseball.fantasysports.yahoo.com/b1/56606/9",
+        "team_logos": [
+            {
+                "team_logo": {
+                    "size": "large",
+                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/bff842c4be758e7cf45a478c7c11f611eeb60da20c42840da2d87742633662ba.jpg"
+                }
+            }
+        ],
+        "number_of_moves": 2,
+        "number_of_trades": "1",
+        "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 1,
+            "value": "1"
+        },
+        "league_scoring_type": "head",
+        "has_draft_grade": 0,
+        "managers": [
+            {
+                "manager": {
+                    "manager_id": "9",
+                    "nickname": "Joe",
+                    "guid": "JTCUT6CYZ76R4TW46WUKB4WVGE",
+                    "image_url": "https://s.yimg.com/ag/images/4532/37954425755_fecf75_64sq.jpg",
+                    "felo_score": "667",
+                    "felo_tier": "silver"
+                }
+            }
+        ]
+    },
+    "458.l.56606.t.10": {
+        "team_key": "458.l.56606.t.10",
+        "team_id": "10",
+        "name": "Santander? I hardly know her!",
+        "url": "https://baseball.fantasysports.yahoo.com/b1/56606/10",
+        "team_logos": [
+            {
+                "team_logo": {
+                    "size": "large",
+                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/3d2bcabdaf5ddadff029752f7eac0cc0794ce4a92f029a295b7fa026a5bb0f43.jpg"
+                }
+            }
+        ],
+        "number_of_moves": 0,
+        "number_of_trades": 0,
+        "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 1,
+            "value": "0"
+        },
+        "league_scoring_type": "head",
+        "has_draft_grade": 0,
+        "managers": [
+            {
+                "manager": {
+                    "manager_id": "10",
+                    "nickname": "Robert",
+                    "guid": "ZKIZQES4TTOJRHQWRIT7LL6PPY",
+                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                    "felo_score": "724",
+                    "felo_tier": "gold"
+                }
+            }
+        ]
+    },
+    "458.l.56606.t.11": {
+        "team_key": "458.l.56606.t.11",
+        "team_id": "11",
+        "name": "SEMIEN THE STREETS U DONT ROKI",
+        "url": "https://baseball.fantasysports.yahoo.com/b1/56606/11",
+        "team_logos": [
+            {
+                "team_logo": {
+                    "size": "large",
+                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/25632367114_72b11a77bb.jpg"
+                }
+            }
+        ],
+        "number_of_moves": 3,
+        "number_of_trades": "1",
+        "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 1,
+            "value": "3"
+        },
+        "league_scoring_type": "head",
+        "has_draft_grade": 0,
+        "managers": [
+            {
+                "manager": {
+                    "manager_id": "11",
+                    "nickname": "Chase",
+                    "guid": "CNRA5JHIWV4BO2ZBNYXPVYUWKU",
+                    "image_url": "https://s.yimg.com/ag/images/4642/25399808898_cbabc6_64sq.jpg",
+                    "felo_score": "681",
+                    "felo_tier": "silver"
+                }
+            }
+        ]
+    },
+    "458.l.56606.t.12": {
+        "team_key": "458.l.56606.t.12",
+        "team_id": "12",
+        "name": "Fried QuesaDiaz",
+        "url": "https://baseball.fantasysports.yahoo.com/b1/56606/12",
+        "team_logos": [
+            {
+                "team_logo": {
+                    "size": "large",
+                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/1e6861f83e97e7ad13162f09209a0db2d4992ddb5e66a332cac133e3912b67e9.jpg"
+                }
+            }
+        ],
+        "number_of_moves": 1,
+        "number_of_trades": 0,
+        "roster_adds": {
+            "coverage_type": "week",
+            "coverage_value": 1,
+            "value": "0"
+        },
+        "league_scoring_type": "head",
+        "has_draft_grade": 0,
+        "managers": [
+            {
+                "manager": {
+                    "manager_id": "12",
+                    "nickname": "Max",
+                    "guid": "UIDZVVELUZYTUQG6OAMBQ7O6PY",
+                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                    "felo_score": "592",
+                    "felo_tier": "bronze"
+                }
+            }
+        ]
+    }
+}
