@@ -1,0 +1,1 @@
+A "Fantasy Baseball Analysis Dashboard" where the standout feature is the ability to maintain a "decision log" throughout the season by logging decisions such as draft analysis, waiver wire moves, trades, and roster decisions etc.
