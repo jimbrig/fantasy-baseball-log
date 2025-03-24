@@ -1,196 +1,163 @@
-Your decision to drop **Austin Wells** for **Victor Scott II** and **Drew Rasmussen** for **AJ Smith-Shawver** is bold but strategically sound given your league's setup and needs. Here's an analysis of the risks and potential rewards of this approach:
+# Fantasy Baseball Decision Log
 
----
-
-## **Move 1: Dropping Austin Wells for Victor Scott II**
-
-### **Rationale**
-
-1. **Steals Category Impact**:
-   - Victor Scott II addresses a critical need in stolen bases, a category where your roster was relatively weak.
-   - His elite speed (99th percentile sprint speed) gives you a significant edge in SB, a standalone category in your league.
-
-2. **Catcher Depth**:
-   - Carrying two catchers (Wells and Contreras) in a one-catcher league was suboptimal.
-   - While Wells has upside, his time-share situation with the Yankees limits his immediate fantasy value.
-   - Contreras is durable enough to anchor the position, making Wells expendable.
-
-3. **Category Balance**:
-   - Scott II's elite speed adds a unique skill set that complements your roster, while Wells' value as a second catcher was redundant.
-
-### **Risk Assessment**
-
-- If Contreras suffers an injury, you'll need to stream or replace a catcher midseason.
-- Scott's batting average risk (.220–.240 projected) could hurt your AVG category slightly, but his SB upside outweighs this downside.
-
----
-
-## **Move 2: Dropping Drew Rasmussen for AJ Smith-Shawver**
-
-### **Rationale**
-
-1. **Pitching Depth and Upside**:
-   - Rasmussen’s injury history (internal brace surgery) and limited innings projection made him unreliable.
-   - Smith-Shawver offers immediate value as part of the Braves' rotation, with strong spring performance (20 K/5 BB in 16 IP) and high strikeout potential.
-
-2. **Short-Term Production**:
-   - Smith-Shawver’s rotation spot might be temporary (until Spencer Strider returns), but he can help you dominate Ks and ratios in the short term.
-   - Rasmussen’s return from injury is uncertain, and even if healthy, his role could be limited by Tampa Bay’s pitching philosophy.# Fantasy Baseball Decision Log
-
-A comprehensive system for tracking, analyzing, and improving fantasy baseball decisions throughout the season.
+>   [!NOTE]
+>
+>   *A Comprehensive System for Performance Tracking and Analysis*
 
 ## Overview
 
-This project provides a structured approach to maintaining a fantasy baseball decision log, helping you track your draft choices, waiver wire moves, lineup decisions, and trades. By documenting your thought process and analyzing the outcomes, you can identify patterns in your decision-making and improve your fantasy baseball management skills over time.
+Fantasy baseball success requires not only making good decisions but also learning from past choices. A well-maintained decision log serves as your personal database for improvement, helping you identify patterns in your decision-making and refine your strategy over time. This comprehensive plan will guide you in creating and maintaining an effective fantasy baseball decision log tailored specifically for your 12-team, categories-based H2H league with daily lineup changes.
 
-The system is specifically designed for a 12-team, categories-based H2H league with daily lineup changes and a maximum of 7 waiver moves per week.
+Before diving into the specifics, it's important to understand that your decision log will become an invaluable resource for identifying what works, what doesn't, and how to improve your fantasy baseball management skills throughout the season.
 
-## Features
+## Core Components of an Effective Decision Log
 
-- **Structured Decision Templates**: Standardized templates for documenting different types of fantasy baseball decisions
-- **Yahoo Fantasy API Integration**: Automated data collection from your Yahoo Fantasy Baseball league
-- **Category Performance Analysis**: Tools to analyze your team's performance across different statistical categories
-- **Waiver Wire Recommendations**: Identification of available players who could address your team's weaknesses
-- **Visual Analytics**: Graphical representations of your team's performance and category trends
+### 1. Draft Log: Your Foundation
 
-## Project Structure
+The draft sets the foundation for your season, making it crucial to document thoroughly:
 
-```
-fantasy-baseball-log/
-├── data/                       # Raw data from Yahoo Fantasy API
-│   ├── YYYY-MM-DD/             # Date-based directories for historical data
-│   ├── roster-snapshots/       # Daily roster snapshots
-│   ├── player-stats/           # Player statistics
-│   ├── category-performance/   # Category performance data
-│   ├── analysis/               # Analysis outputs
-│   └── visualizations/         # Generated charts and graphs
-├── decisions/                  # Decision log entries
-│   ├── draft/                  # Draft analysis
-│   ├── waiver-moves/           # Waiver wire decisions
-│   └── trades/                 # Trade analysis
-├── templates/                  # Templates for decision logs
-│   ├── draft-analysis-template.md
-│   ├── waiver-move-template.md
-│   ├── daily-lineup-template.md
-│   ├── trade-analysis-template.md
-│   ├── weekly-review-template.md
-│   └── monthly-review-template.md
-├── scripts/                    # Analysis and data collection scripts
-│   ├── yahoo_oauth.experimental.py  # Yahoo Fantasy API authentication
-│   ├── analyze_category_trends.py   # Category performance analysis
-│   └── find_waiver_opportunities.py # Waiver wire recommendations
-└── docs/                       # Documentation
-    └── SPECIFICATION.md        # Project specifications
-```
+- **Round**: Record the round in which you drafted each player
+- **Player**: List the full name of the drafted player
+- **Position**: Note the player's primary position (C, 1B, 2B, 3B, SS, OF, SP, RP)
+- **MLB Team**: Record the player's real-life team
+- **Reasoning**: Briefly explain your draft strategy (e.g., category strength, positional scarcity, value pick)
+- **Draft Position**: Document the overall pick number in the draft
+- **Projected Value**: Record your pre-draft valuation of the player
+- **Target Round**: Note which round you initially planned to target this player
+- **Alternative Options**: List 2-3 players you considered instead at this draft position
 
-## Getting Started
+This detailed draft log becomes your first reference point when evaluating your team-building strategy.
 
-### Prerequisites
+### 2. Waiver/Free Agent Log: Tracking In-Season Adjustments
 
-- Python 3.8+
-- Yahoo Fantasy Baseball account
-- Yahoo Developer App credentials
+With a maximum of 7 waiver moves per week and next-day roster implementation, documenting these decisions is critical:
 
-### Installation
+- **Date**: Record when you made the waiver claim or free agent addition
+- **Player Added**: List the full name of the acquired player
+- **Position \& MLB Team**: Document position and team
+- **Player Dropped**: If applicable, note which player you released
+- **Categories Targeted**: Specify which categories you're attempting to strengthen
+- **Timing Strategy**: Note any strategic timing considerations (especially important given your league's next-day implementation rule)
+- **Expected Impact**: Document your expectations for this move
+- **Waiver Position**: Record your position in the waiver order when making claims
+- **Weekly Move Count**: Track how many of your 7 weekly moves you've used
+- **Alternative Options**: List other players you considered adding instead
 
-1. Clone this repository:
 
-   ```
-   git clone https://github.com/yourusername/fantasy-baseball-log.git
-   cd fantasy-baseball-log
-   ```
+### 3. Lineup/Starting Pitcher Log: Daily Decision Tracking
 
-2. Install required packages:
+Since your league features daily lineup changes, maintaining this portion of your log is essential:
 
-   ```
-   pip install -r requirements.txt
-   ```
+- **Date**: Record the game date
+- **Matchup Opponent**: Document your weekly opponent's team name
+- **Full Lineup**: List all active players with their positions
+- **Bench Players**: Note which players you've benched and why
+- **Starting Pitchers**: Record which SPs you've activated
+- **Opponent Pitchers**: Document which pitchers your hitters are facing
+- **Weather Conditions**: Note any significant weather that might impact games
+- **Category Strategy**: Explain which categories you're prioritizing in this matchup
+- **Results**: Record how your lineup performed (particularly useful for weekly review)
 
-3. Set up Yahoo API credentials:
-   - Create a Yahoo Developer App at <https://developer.yahoo.com/apps/>
-   - Create a `.env` file with your credentials:
 
-     ```
-     YAHOO_CLIENT_ID=your_client_id
-     YAHOO_CLIENT_SECRET=your_client_secret
-     YAHOO_REDIRECT_URI=https://localhost:8000/callback
-     ```
+### 4. Trade Log: Negotiation Documentation
 
-### Usage
+Trading is both art and science in fantasy baseball:
 
-#### Initial Setup
+- **Date**: When the trade was proposed and when it was completed
+- **Trade Partner**: The name of the team you're trading with
+- **Players Received/Sent**: Detailed list of all players involved
+- **Category Impact**: How you expect the trade to affect each statistical category
+- **Roster Construction Impact**: How the trade changes your overall roster balance
+- **Initial Proposal vs. Final Trade**: Document how negotiations evolved
+- **Market Research**: Note other trades you considered or proposed
+- **Long-term vs. Short-term Strategy**: Your rationale for making the trade
 
-1. Run the Yahoo OAuth script to authenticate with the Yahoo Fantasy API:
 
-   ```
-   python scripts/yahoo_oauth.experimental.py
-   ```
+### 5. Performance Tracking: Measuring Results
 
-   This will create an `oauth2.json` file with your authentication tokens.
+Without tracking results, it's difficult to evaluate your decisions:
 
-#### Decision Logging
+- **Weekly Matchup Results**: Record category wins/losses for each matchup
+- **Category Strengths/Weaknesses**: Track your performance in each category over time
+- **Player Performance Tracking**: Document how key players are performing relative to expectations
+- **Roster Balance Assessment**: Regular evaluation of your team's category distribution
+- **League Standings Tracker**: Record your position in standings throughout the season
+- **Injury Impact**: Document how injuries affected your team's performance
 
-1. **Draft Analysis**:
-   - Copy `templates/draft-analysis-template.md` to `decisions/draft/YYYY-draft-analysis.md`
-   - Fill in the template with your draft analysis
 
-2. **Waiver Wire Moves**:
-   - Copy `templates/waiver-move-template.md` to `decisions/waiver-moves/YYYY-MM-DD-player-for-player.md`
-   - Document your waiver wire decision
+## Implementation Systems
 
-3. **Daily Lineup Decisions**:
-   - Copy `templates/daily-lineup-template.md` to `decisions/lineups/YYYY-MM-DD-lineup.md`
-   - Record your lineup decisions and matchup considerations
+### Digital Options:
 
-4. **Trade Analysis**:
-   - Copy `templates/trade-analysis-template.md` to `decisions/trades/YYYY-MM-DD-trade-description.md`
-   - Document your trade analysis
+1. **Spreadsheet Template**:
+    - Create separate tabs for each log category
+    - Use conditional formatting to highlight particularly good/bad decisions
+    - Implement auto-calculation formulas to track category performance
+    - Set up reminders for daily lineup checks
+2. **Note-Taking Apps**:
+    - Use apps like Evernote or OneNote with separate notebooks for each log component
+    - Utilize tagging systems to easily search for player names or decision types
+    - Set up templates for quick daily entries
+3. **Fantasy Baseball Specific Apps**:
+    - Some dedicated fantasy baseball apps allow for note-taking features
+    - Integrate with your league platform when possible
 
-#### Analysis
+### Regular Review Process
 
-1. Analyze category performance trends:
-
-   ```
-   python scripts/analyze_category_trends.py
-   ```
-
-   This will generate visualizations and a report in `data/analysis/category_analysis.md`.
-
-2. Find waiver wire opportunities:
-
-   ```
-   python scripts/find_waiver_opportunities.py
-   ```
-
-   This will generate recommendations in `data/analysis/waiver_recommendations.md`.
-
-## Review Process
-
-For maximum benefit, follow this review schedule:
+The most valuable aspect of your decision log is the review process:
 
 1. **Daily Quick Review** (5 minutes):
-   - Update lineup decisions and immediate results
-   - Make notes on waiver wire targets
-
+    - Update lineup decisions and immediate results
+    - Make notes on waiver wire targets
 2. **Weekly Comprehensive Review** (30 minutes):
-   - Analyze matchup results against strategies employed
-   - Review waiver wire decisions and their initial impact
-   - Plan strategy for upcoming matchup
-
+    - Analyze matchup results against strategies employed
+    - Review waiver wire decisions and their initial impact
+    - Plan strategy for upcoming matchup
 3. **Monthly Deep Dive** (1 hour):
-   - Identify patterns in successful and unsuccessful decisions
-   - Compare player performance against draft expectations
-   - Evaluate category strengths/weaknesses and adjust strategy accordingly
-
+    - Identify patterns in successful and unsuccessful decisions
+    - Compare player performance against draft expectations
+    - Evaluate category strengths/weaknesses and adjust strategy accordingly
 4. **Mid-Season Audit** (2 hours):
-   - Comprehensive analysis of all decisions to date
-   - Identify your tendencies and biases
-   - Adjust strategy for second half of season
+    - Comprehensive analysis of all decisions to date
+    - Identify your tendencies and biases
+    - Adjust strategy for second half of season
 
-## Contributing
+## Strategic Applications for Your League Format
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+### Waiver Wire Strategy Enhancement
 
-## License
+With only 7 moves per week and next-day implementation, your waiver log should emphasize:
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+- **Timing Strategy**: Document when you make moves (e.g., Sunday pickups for two-start pitchers the following week)
+- **Category Targeting**: Record which categories you're attempting to strengthen
+- **Streamer Success Rate**: Track the performance of short-term player additions
+- **Opportunity Cost**: Note what you missed by using a move on one player versus another
+
+
+### Matchup Planning
+
+For your H2H category league, emphasize:
+
+- **Category Priorities**: Document which categories you're targeting each week
+- **Pitcher Scheduling**: Track starter schedules to maximize two-start pitchers
+- **Opponent Strengths/Weaknesses**: Record analysis of your opponent's team
+- **Daily Matchup Exploitation**: Note favorable pitcher/hitter matchups
+
+
+### Regular Reflection Questions
+
+Include these questions in your weekly review:
+
+1. Which decisions worked best this week and why?
+2. Which decisions failed to meet expectations and why?
+3. What categories am I consistently winning/losing?
+4. How has my roster construction evolved since the draft?
+5. What patterns do I notice in my decision-making process?
+
+## Conclusion
+
+An effective fantasy baseball decision log doesn't just record what happened—it creates a feedback loop that continuously improves your management skills. By documenting your thought process alongside outcomes, you'll develop deeper insights into both fantasy baseball strategy and your own decision-making tendencies.
+
+Remember that consistency is key. Even a simple log maintained regularly will provide more value than an elaborate system that's rarely updated. Start with the core components outlined above, then customize your log as you discover what information proves most valuable for your specific management style and league format.
+
+By following this framework, you'll transform your fantasy baseball experience from a series of isolated decisions into a coherent, evolving strategy that improves with each documented choice.
