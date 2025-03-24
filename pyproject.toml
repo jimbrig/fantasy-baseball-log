@@ -1,0 +1,17 @@
+[project]
+name = "fantasy-baseball-log"
+version = "0.1.0"
+description = "Yahoo Fantasy Baseball Decision Log"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.4",
+    "pandas>=2.2.3",
+    "pathlib>=1.0.1",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "yahoo-fantasy-api>=2.11.0",
+    "yahoo-oauth>=2.1.1",
+]
